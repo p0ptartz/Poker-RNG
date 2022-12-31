@@ -2,6 +2,7 @@
     font-size: 62.5%;
     margin: 0;
     padding: 0;
+    
 }
 body {
     align-items: center;
@@ -26,6 +27,7 @@ body {
     align-items: center;
     border-radius: 10px 10px 0px 0px;
     border: 1px solid rgb(162, 162, 162);
+    box-sizing: border-box;
 }
 .roll {
     border: none;
@@ -41,6 +43,7 @@ body {
     box-shadow: 5px 5px 5px black;
     text-shadow: 2px 2px 5px black;
     border: 1px solid rgb(162, 162, 162);
+    padding: 0;
 }
 
 .roll:hover{
