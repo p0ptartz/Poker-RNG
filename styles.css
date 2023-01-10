@@ -8,7 +8,7 @@ body {
     align-items: center;
     display: flex;
     height: 100vh;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 0;
     width: 100vw;
     background-image: url(SUHE.png);
@@ -19,8 +19,8 @@ body {
 }
 
 .number {
-    width: 60vw;
-   height: 54vh;
+    min-width: 50vw;
+   height: 150px;
    background-color: rgba(84, 102, 182, 0.656);
     display: flex;
     justify-content: center;
@@ -28,12 +28,13 @@ body {
     border-radius: 10px 10px 0px 0px;
     border: 1px solid rgb(162, 162, 162);
     box-sizing: border-box;
+    font-size: 15rem;
 }
 .roll {
     border: none;
     border-radius: 0px 0px 10px 10px;
     height: 50px;
-    width: 60vw;
+    min-width: 50vw;
     margin-bottom: 8%;
     font-size: 2rem;
     background-color: rgb(27, 34, 62);
@@ -58,7 +59,7 @@ body {
 
 p{
     color: rgb(232, 232, 232);
-    font-size: 65vh;
+    margin: 0;
     text-shadow: 5px 5px 5px black;
     
 }
